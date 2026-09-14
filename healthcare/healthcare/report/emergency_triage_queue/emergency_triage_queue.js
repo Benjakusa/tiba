@@ -1,4 +1,3 @@
-// Copyright (c) 2026, Tiba and contributors
 // For license information, please see license.txt
 
 frappe.query_reports["Emergency Triage Queue"] = {

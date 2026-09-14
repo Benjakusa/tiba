@@ -1,4 +1,3 @@
-// Copyright (c) 2026, Tiba and contributors
 // For license information, please see license.txt
 
 // Shows the triage acuity colour of a patient's active Emergency Record as a

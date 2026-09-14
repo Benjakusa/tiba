@@ -1,4 +1,3 @@
-# Copyright (c) 2018, Tiba and Contributors
 # See license.txt
 
 # import frappe

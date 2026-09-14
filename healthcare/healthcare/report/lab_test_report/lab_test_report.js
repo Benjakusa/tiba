@@ -1,4 +1,3 @@
-// Copyright (c) 2016, ESS
 // License: See license.txt
 
 frappe.query_reports["Lab Test Report"] = {

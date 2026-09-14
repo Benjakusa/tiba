@@ -1,4 +1,3 @@
-// Copyright (c) 2026, Tiba and contributors
 // For license information, please see license.txt
 
 // Adds a "Send to Emergency" action on Patient Appointment and Patient Encounter

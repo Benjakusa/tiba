@@ -1,4 +1,3 @@
-# Copyright (c) 2015, ESS and Contributors
 # See license.txt
 
 import frappe

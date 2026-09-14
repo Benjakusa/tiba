@@ -1,4 +1,3 @@
-# Copyright (c) 2026, Tiba and contributors
 # For license information, please see license.txt
 
 from healthcare.setup import create_triage_levels, create_vital_sign_observation_templates
