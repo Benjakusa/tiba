@@ -4,7 +4,7 @@ pull_request_rules:
       - and:
           - author!=Sajinsr
           - author!=akurungadam
-          - author!=earthians-pr-bot
+          - author!=tiba-pr-bot
           - author!=mergify[bot]
           - author!=github-actions[bot]
       - or:

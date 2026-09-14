@@ -439,7 +439,7 @@ class TestPatientAppointment(HealthcareTestSuite):
 		new_practitioner = frappe.get_list("Healthcare Practitioner", pluck="name")[1]
 		create_appointment(new_patient, new_practitioner, nowdate())
 
-		user = frappe.get_doc("User", "gp@marleyhealth.io")
+		user = frappe.get_doc("User", "gp@tiba.io")
 		new_practitioner = frappe.get_doc("Healthcare Practitioner", new_practitioner)
 		new_practitioner.user_id = user.email
 		new_practitioner.save()

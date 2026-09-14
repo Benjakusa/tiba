@@ -1,4 +1,4 @@
-# Copyright (c) 2020, earthians and Contributors
+# Copyright (c) 2020, Tiba and Contributors
 # See license.txt
 
 import frappe

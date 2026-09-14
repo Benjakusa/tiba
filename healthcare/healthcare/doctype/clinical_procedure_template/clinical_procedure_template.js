@@ -1,4 +1,4 @@
-// Copyright (c) 2017, earthians and contributors
+// Copyright (c) 2017, Tiba and contributors
 // For license information, please see license.txt
 
 frappe.ui.form.on("Clinical Procedure Template", {
@@ -201,7 +201,7 @@ frappe.tour["Clinical Procedure Template"] = [
 		fieldname: "consume_stock",
 		title: __("Allow Stock Consumption"),
 		description: __(
-			"Check this if the Clinical Procedure utilises consumables. Click <a href='https://frappehealth.com/docs/v13/user/manual/en/healthcare/clinical_procedure_template#22-manage-procedure-consumables' target='_blank'>here</a> to know more",
+			"Check this if the Clinical Procedure utilises consumables. Click <a href='https://tiba.io/docs/v13/user/manual/en/healthcare/clinical_procedure_template#22-manage-procedure-consumables' target='_blank'>here</a> to know more",
 		),
 	},
 	{

@@ -1,4 +1,4 @@
-// Copyright (c) 2025, earthians and contributors
+// Copyright (c) 2025, Tiba and contributors
 // For license information, please see license.txt
 
 frappe.provide("healthcare");

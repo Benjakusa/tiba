@@ -11,7 +11,7 @@
     },
     "main": "commitlint.config.js",
     "keywords": [],
-    "author": "earthians Health Informatics Pvt. Ltd.",
+    "author": "Tiba",
     "license": "ISC",
     "dependencies": {
         "vite": "4.4.9",

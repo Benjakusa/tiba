@@ -12,7 +12,7 @@ cd ./frappe-bench || exit
 echo "Get ERPNext..."
 bench get-app --skip-assets --branch "${BASE_BRANCH}" erpnext
 
-echo "Get Marley Healthcare..."
+echo "Get Tiba..."
 bench get-app --skip-assets healthcare "${GITHUB_WORKSPACE}"
 
 echo "Generating POT file..."
@@ -21,12 +21,12 @@ bench generate-pot-file --app healthcare
 cd ./apps/healthcare || exit
 
 echo "Configuring git user..."
-git config user.email "devs@earthianslive.com"
-git config user.name "earthians-pr-bot"
+git config user.email "devs@tiba.io"
+git config user.name "tiba-pr-bot"
 
 echo "Setting the correct git remote..."
 # Here, the git remote is a local file path by default. Let's change it to the upstream repo.
-git remote set-url upstream https://github.com/earthians/marley.git
+git remote set-url upstream https://github.com/Benjakusa/tiba.git
 
 echo "Creating a new branch..."
 isodate=$(date -u +"%Y-%m-%d")
@@ -41,4 +41,4 @@ gh auth setup-git
 git push -u upstream "${branch_name}"
 
 echo "Creating a PR..."
-gh pr create --fill --base "${BASE_BRANCH}" --head "${branch_name}" -R earthians/marley
+gh pr create --fill --base "${BASE_BRANCH}" --head "${branch_name}" -R Benjakusa/tiba

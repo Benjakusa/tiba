@@ -1,4 +1,4 @@
-# Copyright (c) 2026, earthians Health Informatics Pvt. Ltd. and Contributors
+# Copyright (c) 2026, Tiba and Contributors
 # See license.txt
 
 from frappe.utils import add_to_date, now_datetime

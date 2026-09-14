@@ -1,4 +1,4 @@
-# Copyright (c) 2017, earthians and Contributors
+# Copyright (c) 2017, Tiba and Contributors
 # See license.txt
 
 

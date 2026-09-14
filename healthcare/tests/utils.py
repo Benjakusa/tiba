@@ -581,19 +581,19 @@ class BootStrapTestData:
 		records = [
 			{
 				"doctype": "User",
-				"email": "test_user@marleyhealth.io",
+				"email": "test_user@tiba.io",
 				"first_name": "test_user",
 				"password": "password",
 			},
 			{
 				"doctype": "User",
-				"email": "test_user_0@marleyhealth.io",
+				"email": "test_user_0@tiba.io",
 				"first_name": "test_user_0",
 				"password": "password",
 			},
 			{
 				"doctype": "User",
-				"email": "gp@marleyhealth.io",
+				"email": "gp@tiba.io",
 				"first_name": "gp",
 				"password": "password",
 				"roles": [{"doctype": "Has Role", "role": "Physician"}],

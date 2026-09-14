@@ -1,4 +1,4 @@
-# Copyright (c) 2026, earthians Health Informatics Pvt. Ltd. and contributors
+# Copyright (c) 2026, Tiba and contributors
 # For license information, please see license.txt
 
 import json

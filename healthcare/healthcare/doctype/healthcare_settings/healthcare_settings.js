@@ -149,7 +149,7 @@ frappe.tour["Healthcare Settings"] = [
 			__(
 				"You can create a service item for Inpatient Visit Charge and set it here. Similarly, you can set up other Healthcare Service Items for billing in this section. Click",
 			) +
-			" <a href='https://marleyhealth.io/docs/v13/user/manual/en/healthcare/healthcare_settings#3-default-healthcare-service-items' target='_blank'>here</a> " +
+			" <a href='https://tiba.io/docs/v13/user/manual/en/healthcare/healthcare_settings#3-default-healthcare-service-items' target='_blank'>here</a> " +
 			__("to know more"),
 	},
 	{
@@ -166,7 +166,7 @@ frappe.tour["Healthcare Settings"] = [
 			__(
 				"If you want to send SMS alert on Patient Registration, you can enable this option. Similary, you can set up Out Patient SMS alerts for other functionalities in this section. Click",
 			) +
-			" <a href='https://marleyhealth.io/docs/v13/user/manual/en/healthcare/healthcare_settings#5-out-patient-sms-alerts' target='_blank'>here</a> " +
+			" <a href='https://tiba.io/docs/v13/user/manual/en/healthcare/healthcare_settings#5-out-patient-sms-alerts' target='_blank'>here</a> " +
 			__("to know more"),
 	},
 ];

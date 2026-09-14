@@ -21,12 +21,12 @@ jobs:
       - uses: octokit/request-action@v2.x
         with:
           route: POST /repos/{owner}/{repo}/pulls
-          owner: earthians
-          repo: marley
+          owner: Benjakusa
+          repo: tiba
           title: |-
             "chore: release v${{ matrix.version }}"
           body: "Automated Release."
           base: version-${{ matrix.version }}
           head: version-${{ matrix.version }}-hotfix
         env:
-          GITHUB_TOKEN: ${{ secrets.EARTHIANS_BOT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TIBA_BOT_TOKEN }}
